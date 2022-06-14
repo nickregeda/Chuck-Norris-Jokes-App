@@ -1,0 +1,95 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    padding: 30px 0px;
+}
+
+.label_container {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+.label {
+    display: inline;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 120px;
+    filter: drop-shadow(10px -5px 5px red);
+}
+
+.or {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.search_form, .random_form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.search, .random {
+    box-sizing: border-box;
+    outline: none;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a80000;
+    border-radius: 5px;
+    border: solid 5px red;
+    margin-right: 10px;
+    height: 40px;
+}
+
+option {
+    /*font-weight: bold;*/
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    float: right;
+    border-radius: 5px;
+    height: 40px;
+    width: 25%;
+    background: orangered;
+    border: solid 5px red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.1s all;
+}
+
+button:hover {
+    background: red;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.joke:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/*.error{*/
+/*    box-sizing: border-box;*/
+/*    width: 70%;*/
+/*    height: 30px;*/
+/*    background: orangered;*/
+/*    border-radius: 5px;*/
+/*    text-align: center;*/
+/*    font-weight: bold;*/
+/*    border: solid 2px red;*/
+/*}*/
